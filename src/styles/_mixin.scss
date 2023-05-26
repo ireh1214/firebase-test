@@ -1,0 +1,21 @@
+// Breakpoints
+$breakpoint-tablet: 1400px;
+$breakpoint-mobile: 420px;
+$breakpoint-mobile2: 360px;
+
+/********** common  **********/
+
+$mainColor: #06203d;
+
+$titleSize: 18px;
+
+@mixin clearBoth {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+@mixin txtHide {
+  text-indent: -9999px;
+  font-size: 0px;
+}
